@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cae9ff;
+        ;
+}
+.menu{
+    background-color: #1b4965;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>a{
+    text-decoration: none;
+    color: #20a4f3;
+    font-size: 1.8vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navlinks{
+    display: flex;
+}
+.navlinks a{
+    padding: 1vw;
+}
+nav>a:hover{
+    color: #bbdefb;
+}
+.homem,.abaut,.contact,.more,.benefits{
+    color:#bbdefb;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo>img{
+    width: 10vw;
+}
+h1{
+    color: #0d47a1;
+    font-family: fantasy;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 2vw;
+}
+.home{
+    color: grey;
+    font-family: fantasy;
+    font-size: 2vw;
+    text-align: center;
+}
+.img1{
+    width: 100%;
+    padding-top: 2vw;
+}
+.seccion2{
+    display: flex;
+    padding-top: 2vw;
+    width: 100%;
+    justify-content: center;
+}
+.seccion2contenido{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    gap: 2vw;
+}
+.seccion2contenido>div>p{
+    display: flex;
+    color: grey;
+    font-size: 2vw;
+    flex-wrap: wrap;
+}
+.seccion2contenido>div>img{
+    width: 50vw;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    color: white;
+    font-size: 1.5vw;
+    background-color: #1b4965;
+    padding: 1vw;
+}
+
+/* PAGE 2 */
+
+.sec2{
+    display: flex;
+    padding-top: 2vw;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 img{
+    width: 30vw;
+}
+.sec2 p{
+    color: grey;
+    font-size: 1.5vw;
+    width: 30vw;
+    padding-left: 2vw;
+}
+
+/* PAGE 3 */
+
+.p3{
+    text-align: center;
+    padding-top: 3rem;
+}
+.p3>img{
+    width: 50vw;
+}
+.p3>p{
+    color: gray;
+    font-size: 2.5vw;
+    padding: 2vw;
+}
+.info{
+    display: flex;
+    font-size: 1.5vw;
+    justify-content: center;
+    gap: 15vw;
+}
+.info>a{
+    text-decoration: none;
+    color: gray;
+}
+.info>a:hover{
+        color:rgb(187, 0, 255);
+}
+
+/* PAGE 4 */
+
+.pag4{
+    display: flex;
+    justify-content: center;
+    padding: 5vw;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 0.2vw solid #1b4965;
+    width: 50vw;
+    background-color: #90caf9;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+
+/* PAGE 5 */
+
+.mainpag5{
+    display: flex;
+    justify-content: center;
+}
+.pag5{
+    display: flex;
+    width: 60%;
+}
+.pag5 img{
+    width: 40vw;
+    height: 25vw;
+    padding-top: 2vw;
+}
+.lista{
+    padding-top: 2vw;
+    font-size: 1.5vw;
+    color: gray;
+}
+.list1,.list2{
+    height: 25vw;
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style-type: disc;
+    padding-left: 0.5vw;
+}
+
