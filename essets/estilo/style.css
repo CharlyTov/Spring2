@@ -8,7 +8,7 @@ body{
         ;
 }
 main{
-    min-height: 31vw;
+    min-height: 40vw;
 }
 header{
     background-color: #1b4965;
@@ -29,7 +29,7 @@ nav>a{
 nav>a:hover{
     color: #bbdefb;
 }
-.homem,.abaut,.contact,.more,.benefits{
+.activ{
     color:#bbdefb;
 }
 footer{
@@ -80,16 +80,6 @@ main{
 }
 .seccion2 img{
     width: 50vw;
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 3vw;
-    color: white;
-    font-size: 1.5vw;
-    background-color: #1b4965;
-    padding: 1vw;
 }
 
 /* PAGE 2 */
@@ -158,31 +148,128 @@ table, th, td{
 
 /* PAGE 5 */
 
-.mainpag5{
-    display: flex;
-    justify-content: center;
-}
 .pag5{
     display: flex;
-    width: 60%;
-}
-.pag5 img{
-    width: 40vw;
-    height: 25vw;
     padding-top: 2vw;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.pag5i{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3vw;
 }
 .lista{
-    padding-top: 2vw;
-    font-size: 1.5vw;
-    color: gray;
-}
-.list1,.list2{
-    height: 25vw;
     display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    font-size: 1.5vw;
+    list-style-position: inside;
+    padding-left: 2vw;
+}
+.list{
+    list-style-type: decimal;
+    padding-top: 10vw;
+    padding-left: 2vw;
+}
+li{
+    list-style-type: disc;
+}
+/*PAGE 6*/
+
+.pag6{
+    display: flex;
+    gap: 3vw;
+    padding-top: 3vw;
+    justify-content: center;
     align-items: center;
 }
-ul{
-    list-style-type: disc;
-    padding-left: 0.5vw;
+.map{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
 }
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.send{
+    width: 3vw;
+}
+.fname,.lname,.email,.country,.date,.message,.payment{
+    display: flex;
+    flex-direction: column;
+    padding: .3vw;
+}
+
+.pay{
+    display: flex;
+    padding: .3vw;
+}
+.ll{
+    display: flex;
+    flex-direction: column;
+    width: 8vw;
+    align-items: flex-start;
+    gap: .35vw;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 3vw;
+    gap: 1vw;
+    align-items: flex-start;
+    padding-top: .1vw;
+}
+.send{
+    display: flex;
+    padding: .3vw;
+    width: 100%;
+    justify-content: space-between;
+}
+@media only screen and (min-width: 0px) and (max-width:1023px){
+    header{
+        flex-direction: column-reverse;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seccion2{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .sec2{
+        flex-direction: column;
+    }
+    .p3>p{
+        text-align:start;
+        padding: 0;
+    }
+    .info{
+        flex-direction: column;
+        gap: 0;
+        width: 50%;
+    }
+    #none{
+        display: none;
+    }
+    .pag5{
+        flex-direction: column;
+    }
+    .lista{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .list{
+        padding-top: 3vw;
+    }
+    .pag6{
+        flex-direction: column-reverse;
+    }
+}
+
 

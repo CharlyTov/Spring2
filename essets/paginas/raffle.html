@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Mindy Travel | Raffle</title>
+    <link rel="stylesheet" href="../estilo/style.css">
+    <link rel="shortcut icon" href="../imagenes/con.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="./abautus.html">Abaut Us</a>
+            <a href="../paginas/contact.html">Contact</a>
+            <a href="../paginas/information.html">More Information</a>
+            <a href="../paginas/benefitsTips.html">Benefits and Tips</a>
+            <a class="activ" href="./essets/paginas/raffle.html">Raffle</a>
+        </nav>
+        <img class="logo" src="/essets/imagenes/logo.png" alt="logo">
+    </header>
+    <main>
+        <h1>Raffle</h1>
+        <p class="home">You can collaborate and participate in a raffle for a 1-week trip</p>
+
+        <div class="pag6">
+            <section class="map">
+                <h3>To participate you must be from Toronto, Canada</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369107.5368566146!2d-79.70770985583668!3d43.71776750838982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses!2sco!4v1687486911059!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <form class="form" action="./show_data.html" method="get">
+    
+                <div class="fname">
+                    <label for="First Name">First Name</label>
+                    <input type="text" id="First Name" name="user-name">
+                </div>
+
+                <div class="lname">
+                    <label for="Last Name">Last Name</label>
+                    <input type="text" id="Last Name" name="user-lastname">
+                </div>
+
+                <div class="email">
+                <label for="Email">E-mail</label>
+                <input type="text" id="Email" name="user-email">
+                </div>
+
+                <div class="country">
+                    <label for="Choose Country">Choose Country</label>
+                        
+                    <select name="choose-country-select" id="Choose Country">
+                        <option value="">---Select Country---</option>
+                        <option value="Toronto">Toronto</option>
+                        <option value="Vancouver">Vancouver</option>
+                        <option value="Montreal">Montreal</option>
+                        <option value="Whistler">Whistler</option>
+                        <option value="Manitoba">Manitoba</option>
+                        <option value="Ottawa">Ottawa</option>
+                    </select>
+                </div>
+
+                <div class="date">
+                    <label for="Choose Date">Choose Date</label>
+                    <input type="date" name="choose-date" id="Choose Date">
+                </div>
+
+                    <legend class="payment">Payment Options</legend>
+                <div class="pay">
+                    
+                    <div class="inputs">
+                        <input type="radio" id="Cash" name="payment-option" value="Cash">
+                        <input type="radio" id="Credit Cart" name="payment-option" value="credit-card">
+                        <input type="radio" id="Debit Card" name="payment-option" value="debit-card">
+                    </div>
+
+                    <div class="ll">
+                        <legend>Cash</legend>
+                        <label for="Cash"></label>
+                        <legend>Credit Card</legend>
+                        <label for="Credit Card"></label>
+                        <legend>Debit Card</legend>
+                        <label for="Debit Card"></label>
+                    </div>
+                    
+                </div>
+
+                <div class="message">
+                    <legend>Message (Optional)</legend>
+                    <label for="Message"></label>
+                    <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="send">
+                    <input type="checkbox" name="accept" id="accept">    
+                    <label for="accept">I accept terms and conditions...</label>
+
+                    <input class="submit" type="submit" value="Send">
+                </div>
+            </form>
+
+        </div>
+    </main>
+    <footer>
+        <p>Created by: Carlos Tovar</p>
+    </footer>
+</body>
+</html>
